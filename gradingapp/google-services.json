@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893550464962",
+    "project_id": "gradingapp-df6bb",
+    "storage_bucket": "gradingapp-df6bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893550464962:android:44c53d6e1cd74ecc9a905b",
+        "android_client_info": {
+          "package_name": "com.example.gradingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQipRVtbTH8Pe59FSyQb9iNwgwR6rMoiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

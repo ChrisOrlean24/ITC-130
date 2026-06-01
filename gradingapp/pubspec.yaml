@@ -1,0 +1,40 @@
+name: teachdesk
+description: A todo + grading app for teachers.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.15.0
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^13.2.1
+
+  # Local DB (todos)
+  sqflite: ^2.3.2
+  sqflite_common_ffi: ^2.4.0
+  path: ^1.9.0
+
+  # Utilities
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+dependency_overrides:
+  js: ^0.7.2
